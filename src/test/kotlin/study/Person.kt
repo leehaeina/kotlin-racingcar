@@ -4,4 +4,3 @@ data class Person(val name: String, val age: Int, var nickname: String? = name)
 // val 은 변경불가능 == getter만 가능
 // var 은 변경가능 == setter도 가능
 // 또한 코틀린은 프로퍼티이자 생성자입니다!!
-
